@@ -1,0 +1,35 @@
+.color{
+  color: white;
+}
+#invert{
+  filter: invert(1);
+}
+
+
+/* Scrollbar for WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f1f1f; /* Dark track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Thumb color */
+  border-radius: 10px;
+  border: 2px solid #1f1f1f; /* Creates padding around thumb */
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+
+/* Firefox (limited styling) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #444 #1a1a1a;
+}
+
